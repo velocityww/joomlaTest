@@ -152,14 +152,14 @@ else
 					</a>
 					<div class="header-search pull-right">
 						<jdoc:include type="modules" name="position-0" style="none" />
-					</div>
+					</div>                                     
 				</div>
+                                <?php if ($this->countModules('position-1')) : ?>
+                                    <div class="navigation">
+                                        <jdoc:include type="modules" name="position-1" style="none" />
+                                    </div>
+                                <?php endif; ?>
 			</div>
-			<?php if ($this->countModules('position-1')) : ?>
-			<div class="navigation">
-				<jdoc:include type="modules" name="position-1" style="none" />
-			</div>
-			<?php endif; ?>
 			<jdoc:include type="modules" name="banner" style="xhtml" />
 			<div class="row-fluid">
 				<?php if ($this->countModules('position-8')) : ?>

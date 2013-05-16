@@ -6047,6 +6047,10 @@ select[size] {
 .header {
 	margin-bottom: 10px;
 }
+.header .header-inner{
+    float: left;
+    width: 50%;
+}
 .header .finder {
 	margin-top: 14px;
 }
