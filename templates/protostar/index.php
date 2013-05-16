@@ -188,15 +188,15 @@ else
 				<?php endif; ?>
 			</div>
 		</div>
-	</div>
-	<!-- Footer -->
-	<div class="footer">
-		<div class="container<?php echo ($params->get('fluidContainer') ? '-fluid' : '');?>">
+            	<!-- Footer -->
+                <div class="footer">
+                    <div class="container<?php echo ($params->get('fluidContainer') ? '-fluid' : '');?>">
 			<hr />
 			<jdoc:include type="modules" name="footer" style="none" />
 			<p class="pull-right"><a href="#top" id="back-top"><?php echo JText::_('TPL_PROTOSTAR_BACKTOTOP'); ?></a></p>
 			<p>&copy; <?php echo $sitename; ?> <?php echo date('Y');?></p>
-		</div>
+                    </div>
+                </div>
 	</div>
 	<jdoc:include type="modules" name="debug" style="none" />
 </body>
